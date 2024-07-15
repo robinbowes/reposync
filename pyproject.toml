@@ -8,7 +8,7 @@ includes = ["src/reposync"]
 
 [project]
 name = "reposync"
-version = "0.3.2"
+version = "0.3.3"
 description = """\
     A tool to help clone multiple github repositories and keep them updated.
 """
