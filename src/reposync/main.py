@@ -2,18 +2,17 @@
 # -*- coding: utf-8 -*-
 
 import argparse
+import logging
 import os
 import sys
-import logging
-
-from reposync import __version__
-
-from github import Github
-import git
+from operator import attrgetter
 from pathlib import Path
 
+import git
+from github import Github
 from more_itertools import unique_everseen
-from operator import attrgetter
+
+from reposync import __version__
 
 __author__ = "Robin Bowes"
 __copyright__ = "Robin Bowes"
