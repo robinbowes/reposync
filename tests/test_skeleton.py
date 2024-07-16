@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pytest
+
 from reposync.skeleton import fib
 
 __author__ = "Robin Bowes"
